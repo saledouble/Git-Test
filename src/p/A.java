@@ -11,4 +11,8 @@ public class A {
 	public static void n1() {
 		Logger.getGlobal().info("hi, n1");
 	}
+	
+	public static void n2() {
+		Logger.getGlobal().info("hi, n2");
+	}
 }
