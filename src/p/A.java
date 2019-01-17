@@ -13,6 +13,9 @@ public class A {
 	}
 	
 	public static void n2() {
-		Logger.getGlobal().info("hi, n2");
+		try {
+		} catch (Exception e) {
+			Logger.getGlobal().info("hi, n2");
+		}
 	}
 }
